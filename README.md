@@ -1,13 +1,25 @@
 # Azubian OS
 Uma distribuição Linux personalizada para jogos e produtividade.
 
-## 📥 Download
-[Baixe a ISO aqui](link)
+## Sobre
+Azubian OS é uma distribuição Linux leve e completa, projetada para oferecer desempenho rápido sem abrir mão de recursos modernos. É ideal para quem busca produtividade e diversão em um sistema otimizado.
 
-## 🚀 Instalação
-1. Grave a IMG em um pendrive.
-2. Inicie pelo pendrive.
-3. Se divirta
+##  Download
+[Baixe a imagem aqui](link)
 
-## 📸 Capturas de tela
+##  Instalação
+1. Grave a imagem `.img` em um pendrive usando ferramentas como BalenaEtcher ou Rufus.
+2. Inicie o computador pelo pendrive.
+3. Explore e se divirta-se com o Azubian OS
+
+##  Capturas de tela
 ![Desktop do Azubian OS](imagem)
+
+## Notas
+O Azubian OS ainda está em desenvolvimento e não possui instalador próprio.  
+Atualmente, o arquivo `.img` é uma cópia de um sistema já instalado em disco.  
+Contribuições e sugestões são bem-vindas para ajudar a evoluir o projeto!
+
+## Créditos
+Azubian OS é baseado no Linux Mint e utiliza o ambiente gráfico Cinnamon.
+Agradeço à equipe do Linux Mint pelo incrível trabalho que torna este projeto possível.
