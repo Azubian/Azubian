@@ -1,16 +1,13 @@
-## Hi there 👋
+# Azubian OS
+Uma distribuição Linux personalizada para jogos e produtividade.
 
-<!--
-**Azubian/Azubian** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 📥 Download
+[Baixe a ISO aqui](link)
 
-Here are some ideas to get you started:
+## 🚀 Instalação
+1. Grave a IMG em um pendrive.
+2. Inicie pelo pendrive.
+3. Se divirta
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📸 Capturas de tela
+![Desktop do Azubian OS](imagem)
