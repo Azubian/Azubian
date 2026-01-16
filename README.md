@@ -22,5 +22,5 @@ Contribuições e sugestões são bem-vindas para ajudar a evoluir o projeto!
 O ambiente gráfico Cinnamon sera sendo usado temporariamente até o linux ser desenvolvido
 
 ## Créditos
-Azubian OS é baseado no Linux Mint e utiliza o ambiente gráfico Cinnamon.
-Agradeço à equipe do Linux Mint pelo incrível trabalho que torna este projeto possível.
+Azubian OS utiliza o ambiente gráfico Cinnamon e ícones/temas herdados do Linux Mint. 
+Agradeço à equipe do Linux Mint e à comunidade Cinnamon pelo trabalho que torna este projeto possível.
