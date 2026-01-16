@@ -1,24 +1,113 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <title>Azubian OS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      background-color: #34495e;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #2c3e50;
+    }
+    .download-btn {
+      display: inline-block;
+      background-color: #27ae60;
+      color: white;
+      padding: 12px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .download-btn:hover {
+      background-color: #2ecc71;
+    }
+    .screenshot {
+      display: block;
+      margin: 20px auto;
+      max-width: 80%;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Bem-vindo ao Azubian OS</h1>
-  <p>Uma distribuição Linux leve, completa e otimizada para jogos e produtividade.</p>
+  <header>
+    <h1>Azubian OS</h1>
+    <p>Leve · Completo · Pronto para Jogos</p>
+  </header>
 
-  <h2>Download</h2>
-  <a href="link-para-imagem.img">Baixar imagem</a>
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#download">Download</a>
+    <a href="#screenshots">Capturas</a>
+    <a href="#creditos">Créditos</a>
+  </nav>
 
-  <h2>Instalação</h2>
-  <ol>
-    <li>Grave a imagem em um pendrive com BalenaEtcher ou Rufus.</li>
-    <li>Inicie o computador pelo pendrive.</li>
-    <li>Explore e divirta-se com o Azubian OS.</li>
-  </ol>
+  <section id="sobre">
+    <h2>Sobre o Azubian OS</h2>
+    <p>O Azubian OS é uma distribuição Linux baseada no Mint, com interface Cinnamon, 
+    otimizada para leveza e suporte a jogos via Wine. Drivers AMD, Intel e NVIDIA já incluídos.</p>
+  </section>
 
-  <h2>Créditos</h2>
-  <p>Baseado no Linux Mint e utilizando o ambiente Cinnamon.</p>
+  <section id="download">
+    <h2>Download</h2>
+    <p>A imagem oficial estará disponível em breve.</p>
+    <a class="download-btn" href="#">Baixar Imagem</a>
+  </section>
+
+  <section id="screenshots">
+    <h2>Capturas de Tela</h2>
+    <img src="images/desktop.png" alt="Desktop do Azubian OS" class="screenshot">
+  </section>
+
+  <section id="creditos">
+    <h2>Créditos</h2>
+    <p>Baseado no <strong>Linux Mint</strong> e utilizando o ambiente gráfico <strong>Cinnamon</strong>. 
+    Agradecimentos à comunidade Linux Mint e Cinnamon pelo trabalho que torna este projeto possível.</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Azubian OS - Projeto em desenvolvimento</p>
+  </footer>
 </body>
 </html>
