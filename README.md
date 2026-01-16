@@ -13,7 +13,7 @@ Azubian OS é uma distribuição Linux leve e completa baseada em Debian, projet
 3. Explore e se divirta-se com o Azubian OS
 
 ##  Capturas de tela
-![Desktop do Azubian OS](/images/screenshot.png)
+![Desktop do Azubian OS](/images/Screenshot.png)
 
 ## Notas
 O Azubian OS ainda está em desenvolvimento e não possui instalador próprio.  
