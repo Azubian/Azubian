@@ -2,7 +2,7 @@
 Uma distribuição Linux personalizada para jogos e produtividade.
 
 ## Sobre
-Azubian OS é uma distribuição Linux leve e completa, projetada para oferecer desempenho rápido sem abrir mão de recursos modernos. É ideal para quem busca produtividade e diversão em um sistema otimizado.
+Azubian OS é uma distribuição Linux leve e completa baseada em Debian, projetada para oferecer desempenho rápido sem abrir mão de recursos modernos. É ideal para quem busca produtividade e diversão em um sistema otimizado.
 
 ##  Download
 [Baixe a imagem aqui](link)
@@ -19,6 +19,7 @@ Azubian OS é uma distribuição Linux leve e completa, projetada para oferecer 
 O Azubian OS ainda está em desenvolvimento e não possui instalador próprio.  
 Atualmente, o arquivo `.img` é uma cópia de um sistema já instalado em disco.  
 Contribuições e sugestões são bem-vindas para ajudar a evoluir o projeto!
+O ambiente gráfico Cinnamon sera sendo usado temporariamente até o linux ser desenvolvido
 
 ## Créditos
 Azubian OS é baseado no Linux Mint e utiliza o ambiente gráfico Cinnamon.
