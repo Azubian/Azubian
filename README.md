@@ -17,10 +17,11 @@
 
 ## Notas
 **·**  O Azubian OS ainda está em desenvolvimento e não possui instalador próprio.  
-Atualmente, o arquivo `.img` é uma cópia de um sistema já instalado em disco.  
-Contribuições e sugestões são bem-vindas para ajudar a evoluir o projeto!
-O ambiente gráfico Cinnamon sera sendo usado temporariamente até o linux ser desenvolvido
+**·**  Atualmente, o arquivo `.img` é uma cópia de um sistema já instalado em disco.  
+**·**  O Azubian OS não tem uma data de lançamento prevista.   
+**·**  O ambiente gráfico Cinnamon sera sendo usado temporariamente até o linux ser desenvolvido.   
+**·**  Contribuições e sugestões são bem-vindas para ajudar a evoluir o projeto!   
 
 ## Créditos
-**·**  Azubian OS utiliza o ambiente gráfico Cinnamon e ícones/temas herdados do Linux Mint.                                                                                                                                                                 
+**·**  Azubian OS utiliza o ambiente gráfico Cinnamon e ícones/temas herdados do Linux Mint.   
 **·**  Agradeço à equipe do Linux Mint e à comunidade Cinnamon pelo trabalho que torna este projeto possível. 
