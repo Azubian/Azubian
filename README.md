@@ -13,7 +13,7 @@
 3. Explore e se divirta-se com o Azubian OS
 
 ##  Capturas de tela
-<img src=/images/Screenshot.png width="650" height="auto">
+<img src=/images/screenshot.png width="650" height="auto">
 
 ## Notas
 **·**  O Azubian OS ainda está em desenvolvimento e não possui instalador próprio.  
