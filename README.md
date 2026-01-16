@@ -5,7 +5,7 @@ Uma distribuição Linux personalizada para jogos e produtividade.
 Azubian OS é uma distribuição Linux leve e completa baseada em Debian, projetada para oferecer desempenho rápido sem abrir mão de recursos modernos. É ideal para quem busca produtividade e diversão em um sistema otimizado.
 
 ##  Download
-[Baixe a imagem aqui](link)
+[Baixe a imagem aqui](https://azubian.github.io/Azubian/)
 
 ##  Instalação
 1. Grave a imagem `.img` em um pendrive usando ferramentas como BalenaEtcher ou Rufus.
