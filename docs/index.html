@@ -69,7 +69,20 @@
     justify-content: flex-start;
     }
 
-    .banner-content
+    .banner-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    
+    .banner-text {
+      max-width: 60%;
+    }
+
+    .banner-img {
+      max-width: 200px;
+      heigth: auto;
+    }
     
     .download-banner h2 {
     margin: 0;
@@ -146,14 +159,21 @@
     <a href="#screenshots">Capturas</a>
     <a href="#creditos">Créditos</a>
   </nav>
-
+  
   <section class="download-banner">
-  <h2>Baixe o Azubian OS</h2> 
-  <p>Baixe a versão mais recente e aproveite o sistema leve e otimizado.</p>
-  <div class="download-options">
-  <a class="download-btn" href="download.html">Baixar mais recente</a> 
-  <a class="white-btn" href="download_all.html">Todas as versões</a>  
+    <div class="banner-content">
+      <div class="banner-text">
+        <h2>Baixe o Azubian OS</h2> 
+        <p>Baixe a versão mais recente e aproveite o sistema leve e otimizado para jogos.</p>
+        <div class="download-options">
+          <a class="download-btn" href="download.html">Baixar mais recente</a> 
+          <a class="white-btn" href="download_all.html">Todas as versões</a>  
+        </div>
+      </div>
+      <img src="images/banner.png" alt="Azubian OS" class="banner-img">
+    </div>
   </section>
+
 
   <section id="sobre">
     <h2>Sobre o Azubian OS</h2>
