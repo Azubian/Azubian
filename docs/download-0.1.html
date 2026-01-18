@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Download - Azubian OS rev:23</title>
+  <title>Download - Azubian OS rev:24</title>
   <style>
       body {
       font-family: Arial, sans-serif;
@@ -197,6 +197,17 @@
     <p>Linux/Mac OS</p>
     <p>1.Abra o terminal na pasta Downloads</p>
     <p>2.Digite: sha256sum nome_da_imagem</p>
+    <p>3.Pressione Enter e compare com o SHA256 da imagem</p>
+    <div class="linha-vazia"></div>
+    <p>Windows(CMD)</p>
+    <p>1.Abra o Prompt de Comando</p>
+    <p>2.Digite: certutil -hashfile caminho\para\a\imagem SHA256</p>
+    <p>3.Pressione Enter e compare com o SHA256 da imagem</p>
+    <div class="linha-vazia"></div>
+    <p>Windows(PowerShell)</p>
+    <p>1.Abra o Poweshellr</p>
+    <p>2.Digite: Get-FileHash caminho\para\a\imagem -Algorithm SHA256</p> 
+    <p>3.Pressione Enter e compare com o SHA256 da imagem</p>
     <div class="linha-vazia"></div>
   </section>
 </body>
