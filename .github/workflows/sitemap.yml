@@ -27,7 +27,7 @@ jobs:
       - name: Generate sitemap
         run: |
           sitemap-generator https://azubian.github.io/Azubian/ \
-            --output ./docs/sitemap.xml \
+            --output docs/sitemap.xml \
             --strip-querystring
 
       - name: Commit sitemap
