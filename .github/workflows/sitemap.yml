@@ -34,6 +34,9 @@ jobs:
       - name: Move sitemap to docs
         run: mv sitemap.xml docs/sitemap.xml
 
+      - name: Remove .img entries
+        run: sed -i '/\.img<\/loc>/d' docs/sitemap.xml
+ 
       - name: Ensure UTF-8 encoding
         run: |
           iconv -f UTF-8 -t UTF-8 docs/sitemap.xml -o docs/sitemap.xml
