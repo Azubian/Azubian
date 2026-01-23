@@ -33,6 +33,10 @@ jobs:
       - name: Move sitemap to docs
         run: mv sitemap.xml docs/sitemap.xml
 
+      - name: Ensure UTF-8 encoding
+        run: |
+          iconv -f UTF-8 -t UTF-8 docs/sitemap.xml -o docs/sitemap.xml
+
       - name: Fix XML header
         run: |
           sed -i '1s/.*/<?xml version="1.0" encoding="UTF-8"?>/' docs/sitemap.xml
