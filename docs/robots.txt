@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://azubian.github.io/Azubian/sitemap.xml
