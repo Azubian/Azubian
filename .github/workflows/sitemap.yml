@@ -45,6 +45,11 @@ jobs:
         run: |
           sed -i '1s/.*/<?xml version="1.0" encoding="UTF-8"?>/' docs/sitemap.xml
 
+      - name: Add <lastmod> tags 
+        run: | 
+          TODAY=$(date +%Y-%m-%d)
+          sed -i "/<loc>/a \ \ \ \ <lastmod>$TODAY</lastmod>" docs/sitemaps.xml
+
       - name: Commit sitemap
         run: |
           git config --global user.name "github-actions[bot]"
