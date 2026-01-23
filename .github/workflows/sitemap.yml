@@ -28,7 +28,8 @@ jobs:
         run: |
           sitemap-generator https://azubian.github.io/Azubian/ \
             --output sitemap.xml \
-            --strip-querystring
+            --strip-querystring  \
+            --ignore ".*\.img$"
 
       - name: Move sitemap to docs
         run: mv sitemap.xml docs/sitemap.xml
