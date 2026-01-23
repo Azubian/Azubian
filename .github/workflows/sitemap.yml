@@ -27,7 +27,7 @@ jobs:
       - name: Generate sitemap
         run: |
           sitemap-generator https://azubian.github.io/Azubian/ \
-            --output sitemap.xml \
+            --output sitemaps.xml \
             --strip-querystring  \
             --exclude-pattern ".*\.img$"
 
