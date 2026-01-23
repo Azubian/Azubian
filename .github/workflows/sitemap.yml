@@ -35,7 +35,7 @@ jobs:
         run: mv sitemap.xml docs/sitemap.xml
 
       - name: Remove .img entries
-        run: sed -i '/\.img<\/loc>/d' docs/sitemap.xml
+        run: sed -i '/<url>/{:a;N;/<\/url>/!ba;/\.img<\/loc>/d}' docs/sitemap.xml
  
       - name: Ensure UTF-8 encoding
         run: |
