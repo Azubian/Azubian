@@ -26,13 +26,17 @@ jobs:
 
       - name: Generate sitemap
         run: |
-         sitemap-generator https://azubian.github.io/Azubian/ \
-         --output sitemap.xml \
-         --strip-querystring
+          sitemap-generator https://azubian.github.io/Azubian/ \
+            --output sitemap.xml \
+            --strip-querystring
 
       - name: Move sitemap to docs
         run: mv sitemap.xml docs/sitemap.xml
-       
+
+      - name: Fix XML header
+        run: |
+          sed -i '1s/.*/<?xml version="1.0" encoding="UTF-8"?>/' docs/sitemap.xml
+
       - name: Commit sitemap
         run: |
           git config --global user.name "github-actions[bot]"
