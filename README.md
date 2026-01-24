@@ -21,6 +21,7 @@
 **·**  O Azubian OS não tem uma data de lançamento prevista.   
 **·**  O ambiente gráfico Cinnamon sera sendo usado temporariamente até o linux ser desenvolvido.   
 **·**  Contribuições e sugestões são bem-vindas para ajudar a evoluir o projeto!   
+**·**  Os valores listados nos sites do Azubian OS não são reais por enquanto
 
 ## Créditos
 **·**  Azubian OS utiliza o ambiente gráfico Cinnamon e ícones/temas herdados do Linux Mint.   
