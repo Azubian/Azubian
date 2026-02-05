@@ -8,7 +8,7 @@
 [Baixe a imagem aqui](https://azubian.github.io/Azubian/)
 
 ##  Instalação
-1. Grave a imagem `.img` em um pendrive usando ferramentas como BalenaEtcher ou Rufus.
+1. Grave a imagem `.iso` em um pendrive usando ferramentas como BalenaEtcher ou Rufus.
 2. Inicie o computador pelo pendrive.
 3. Explore e se divirta-se com o Azubian OS
 
@@ -17,7 +17,7 @@
 
 ## Notas
 **·**  O Azubian OS ainda está em desenvolvimento e não possui instalador próprio.  
-**·**  Atualmente, o arquivo `.img` é uma cópia de um sistema já instalado em disco.  
+**·**  Atualmente, o arquivo `.iso` é uma cópia de um sistema já instalado em disco.  
 **·**  O Azubian OS não tem uma data de lançamento prevista.   
 **·**  O ambiente gráfico MATE será sendo usado temporariamente até o linux ser desenvolvido.   
 **·**  Contribuições e sugestões são bem-vindas para ajudar a evoluir o projeto!   
